@@ -12,7 +12,7 @@ namespace PizzaProject
             description = "Small Pizze";
             this.setSize("Small");
         }
-
+        
         public override double getCost()
         {
             return 9.20;

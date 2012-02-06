@@ -5,8 +5,8 @@ using System.Text;
 
 namespace PizzaProject
 {
-    class ToppingClass : PizzaClass
+    public abstract class ToppingClass : PizzaClass
     {
-        public abstract override string getDescription();
+        public override abstract String getDescription();
     }
 }

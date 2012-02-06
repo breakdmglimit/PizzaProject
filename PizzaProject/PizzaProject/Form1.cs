@@ -14,6 +14,16 @@ namespace PizzaProject
         public Form1()
         {
             InitializeComponent();
+            
+            PizzaClass pizza = new MediumPizzaClass();
+            pizza = new DeepDish(pizza);
+            pizza = new SunDriedTomatoes(pizza);
+            pizza = new SpinchTopping(pizza);
+            label1.Text = pizza.getDescription();
+
         }
+
+        
+
     }
 }

@@ -14,7 +14,7 @@ namespace PizzaProject
             this.currentPizza = currPizza;
         }
 
-        public override string getDescription()
+        public override String getDescription()
         {
             return currentPizza.getDescription() + " with a Flat Bread crust";
         }

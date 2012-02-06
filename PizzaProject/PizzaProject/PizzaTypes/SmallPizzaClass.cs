@@ -7,10 +7,10 @@ namespace PizzaProject
 {
     public class SmallPizzaClass : PizzaClass
     {
-        public SmallPizzaClass(String size)
+        public SmallPizzaClass()
         {
             description = "Small Pizze";
-            this.setSize(size);
+            this.setSize("Small");
         }
 
         public override double getCost()
